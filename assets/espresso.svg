@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="espressoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="100%" stop-color="#EDE6DC" />
+    </linearGradient>
+    <linearGradient id="crema" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B85D22" />
+      <stop offset="50%" stop-color="#D97736" />
+      <stop offset="100%" stop-color="#6F4E37" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#espressoBg)" rx="16" />
+  <circle cx="200" cy="150" r="100" fill="#3B2219" opacity="0.06" />
+
+  <!-- Saucer -->
+  <ellipse cx="200" cy="220" rx="90" ry="16" fill="#D5CBC0" />
+  <ellipse cx="200" cy="217" rx="80" ry="12" fill="#FAF7F2" />
+
+  <!-- Steam -->
+  <path d="M185 85 Q195 65 185 45" stroke="#6F4E37" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4" />
+  <path d="M205 80 Q215 60 205 40" stroke="#6F4E37" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5" />
+  <path d="M225 85 Q235 65 225 45" stroke="#6F4E37" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4" />
+
+  <!-- Cup -->
+  <path d="M145 105 H255 V155 C255 190 230 205 200 205 C170 205 145 190 145 155 Z" fill="#3B2219" />
+  <!-- Cup Handle -->
+  <path d="M255 120 H275 C286 120 292 128 292 140 C292 152 286 160 275 160 H255" stroke="#3B2219" stroke-width="9" stroke-linecap="round" fill="none" />
+  
+  <!-- Crema Surface -->
+  <ellipse cx="200" cy="107" rx="52" ry="14" fill="url(#crema)" />
+  <ellipse cx="200" cy="107" rx="38" ry="9" fill="#D97736" />
+  <ellipse cx="196" cy="106" rx="20" ry="5" fill="#E8A87C" opacity="0.8" />
+  <!-- Rosetta leaf hint -->
+  <path d="M190 106 Q200 102 210 106" stroke="#FAF7F2" stroke-width="2" stroke-linecap="round" fill="none" />
+
+  <!-- Coffee beans -->
+  <ellipse cx="110" cy="235" rx="10" ry="6" fill="#3B2219" transform="rotate(-30 110 235)" />
+  <ellipse cx="290" cy="230" rx="9" ry="6" fill="#3B2219" transform="rotate(20 290 230)" />
+</svg>

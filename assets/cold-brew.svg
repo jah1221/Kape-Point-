@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="coldBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="100%" stop-color="#EDE6DC" />
+    </linearGradient>
+    <linearGradient id="coffeeBrew" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="25%" stop-color="#8C5835" />
+      <stop offset="70%" stop-color="#3B2219" />
+      <stop offset="100%" stop-color="#1F110C" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#coldBg)" rx="16" />
+  <circle cx="200" cy="150" r="100" fill="#3B2219" opacity="0.06" />
+
+  <!-- Coaster / shadow -->
+  <ellipse cx="200" cy="245" rx="60" ry="12" fill="#D5CBC0" />
+
+  <!-- Glass Body -->
+  <path d="M160 70 L170 235 C170 242 178 245 200 245 C222 245 230 242 230 235 L240 70 Z" fill="url(#coffeeBrew)" />
+  
+  <!-- Glass Outline / shine -->
+  <path d="M160 70 L170 235 C170 242 178 245 200 245 C222 245 230 242 230 235 L240 70 Z" fill="none" stroke="#FFFFFF" stroke-width="4" opacity="0.6" />
+  <line x1="172" y1="85" x2="178" y2="220" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.4" />
+
+  <!-- Ice Cubes inside -->
+  <rect x="180" y="115" width="28" height="28" rx="4" fill="#FFFFFF" opacity="0.4" transform="rotate(15 194 129)" />
+  <rect x="195" y="150" width="30" height="30" rx="4" fill="#FFFFFF" opacity="0.35" transform="rotate(-10 210 165)" />
+  <rect x="175" y="180" width="26" height="26" rx="4" fill="#FFFFFF" opacity="0.3" transform="rotate(8 188 193)" />
+
+  <!-- Sweet Cold Foam on Top -->
+  <ellipse cx="200" cy="72" rx="40" ry="10" fill="#FAF7F2" />
+  <path d="M160 72 Q180 85 200 82 Q220 86 240 72 Z" fill="#FAF7F2" />
+
+  <!-- Glass Rim -->
+  <ellipse cx="200" cy="70" rx="40" ry="8" fill="none" stroke="#FFFFFF" stroke-width="4" />
+
+  <!-- Straw -->
+  <line x1="225" y1="35" x2="185" y2="220" stroke="#D97736" stroke-width="6" stroke-linecap="round" opacity="0.9" />
+
+  <!-- Condensation droplets -->
+  <circle cx="168" cy="140" r="2.5" fill="#FFFFFF" opacity="0.7" />
+  <circle cx="169" cy="165" r="2" fill="#FFFFFF" opacity="0.7" />
+  <circle cx="232" cy="150" r="2.5" fill="#FFFFFF" opacity="0.7" />
+</svg>

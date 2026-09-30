@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B2219" />
+      <stop offset="50%" stop-color="#4E2E22" />
+      <stop offset="100%" stop-color="#231815" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D97736" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#3B2219" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="cupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FAF7F2" />
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FCD34D" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#FCD34D" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#heroBg)" />
+
+  <!-- Cafe Windows / Shelves in background -->
+  <g opacity="0.15">
+    <rect x="60" y="40" width="180" height="220" rx="8" fill="#FAF7F2" />
+    <rect x="75" y="55" width="70" height="90" fill="#3B2219" />
+    <rect x="155" y="55" width="70" height="90" fill="#3B2219" />
+    <rect x="75" y="155" width="70" height="90" fill="#3B2219" />
+    <rect x="155" y="155" width="70" height="90" fill="#3B2219" />
+
+    <line x1="560" y1="90" x2="740" y2="90" stroke="#FAF7F2" stroke-width="6" />
+    <line x1="560" y1="160" x2="740" y2="160" stroke="#FAF7F2" stroke-width="6" />
+    <!-- Jars on shelf -->
+    <rect x="580" y="52" width="28" height="38" rx="4" fill="#FAF7F2" />
+    <rect x="625" y="48" width="34" height="42" rx="4" fill="#FAF7F2" />
+    <rect x="680" y="56" width="30" height="34" rx="4" fill="#FAF7F2" />
+  </g>
+
+  <!-- Warm Pendant Lamp -->
+  <line x1="400" y1="0" x2="400" y2="120" stroke="#D97736" stroke-width="3" />
+  <path d="M370 145 L430 145 L420 120 L380 120 Z" fill="#D97736" />
+  <circle cx="400" cy="148" r="8" fill="#FDE68A" />
+  <circle cx="400" cy="180" r="140" fill="url(#lampGlow)" />
+
+  <!-- Countertop / Wooden Table -->
+  <path d="M0 380 L800 380 L800 500 L0 500 Z" fill="#2E1A13" />
+  <rect x="0" y="375" width="800" height="15" fill="#D97736" opacity="0.6" />
+
+  <!-- Coffee Cup Centerpiece -->
+  <g transform="translate(330, 240)">
+    <!-- Steam -->
+    <path d="M60 40 Q75 10 55 -20" stroke="#FAF7F2" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6" />
+    <path d="M80 30 Q95 0 80 -30" stroke="#FAF7F2" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.75" />
+    <path d="M100 40 Q115 10 95 -20" stroke="#FAF7F2" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6" />
+
+    <!-- Cup Body -->
+    <path d="M30 50 H130 V95 C130 125 110 140 80 140 C50 140 30 125 30 95 Z" fill="url(#cupGrad)" filter="drop-shadow(0 12px 24px rgba(0,0,0,0.5))" />
+    <!-- Latte interior -->
+    <ellipse cx="80" cy="52" rx="48" ry="12" fill="#6F4E37" />
+    <ellipse cx="80" cy="52" rx="40" ry="9" fill="#D97736" />
+    <path d="M80 48 C76 43 68 45 70 51 C72 56 80 61 80 61 C80 61 88 56 90 51 C92 45 84 43 80 48 Z" fill="#FAF7F2" />
+
+    <!-- Cup Handle -->
+    <path d="M130 65 H148 C158 65 164 72 164 82 C164 92 158 98 148 98 H130" stroke="#FAF7F2" stroke-width="10" stroke-linecap="round" fill="none" />
+
+    <!-- Saucer Plate -->
+    <ellipse cx="80" cy="144" rx="75" ry="12" fill="#FAF7F2" />
+    <ellipse cx="80" cy="144" rx="60" ry="8" fill="#E8E0D5" />
+  </g>
+
+  <!-- Roasted Coffee Beans Scattered -->
+  <g fill="#4A2818">
+    <ellipse cx="230" cy="410" rx="14" ry="9" transform="rotate(-25 230 410)" />
+    <path d="M224 403 Q230 410 236 417" stroke="#231815" stroke-width="2" fill="none" />
+
+    <ellipse cx="260" cy="425" rx="13" ry="8" transform="rotate(35 260 425)" />
+    <path d="M255 429 Q260 425 265 421" stroke="#231815" stroke-width="2" fill="none" />
+
+    <ellipse cx="540" cy="415" rx="15" ry="9" transform="rotate(15 540 415)" />
+    <path d="M533 416 Q540 415 547 414" stroke="#231815" stroke-width="2" fill="none" />
+
+    <ellipse cx="580" cy="430" rx="12" ry="8" transform="rotate(-40 580 430)" />
+    <path d="M576 424 Q580 430 584 436" stroke="#231815" stroke-width="2" fill="none" />
+  </g>
+
+  <!-- Ambient Text Badge -->
+  <rect x="50" y="430" width="150" height="34" rx="17" fill="#D97736" opacity="0.9" />
+  <text x="125" y="452" fill="#FAF7F2" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="1">100% LOCAL BEANS</text>
+</svg>

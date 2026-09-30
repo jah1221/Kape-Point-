@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="coffeeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97736" />
+      <stop offset="100%" stop-color="#3B2219" />
+    </linearGradient>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="100%" stop-color="#E8E0D5" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="36" fill="url(#warmBg)" />
+  <circle cx="80" cy="80" r="64" fill="#3B2219" />
+  <!-- Steam lines -->
+  <path d="M68 45 Q74 35 68 25" stroke="#FAF7F2" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.85" />
+  <path d="M80 42 Q86 32 80 22" stroke="#FAF7F2" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.85" />
+  <path d="M92 45 Q98 35 92 25" stroke="#FAF7F2" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.85" />
+  <!-- Cup body -->
+  <path d="M48 55 H112 V85 C112 103 98 115 80 115 C62 115 48 103 48 85 Z" fill="#FAF7F2" />
+  <!-- Cup handle -->
+  <path d="M112 65 H122 C128 65 132 70 132 76 C132 82 128 87 122 87 H112" stroke="#FAF7F2" stroke-width="6" stroke-linecap="round" fill="none" />
+  <!-- Saucer -->
+  <path d="M38 123 H122" stroke="#D97736" stroke-width="7" stroke-linecap="round" />
+  <!-- Heart Latte Art -->
+  <path d="M80 82 C80 82 72 72 68 76 C64 80 68 88 80 96 C92 88 96 80 92 76 C88 72 80 82 80 82 Z" fill="#D97736" />
+</svg>
